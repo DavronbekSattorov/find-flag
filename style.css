@@ -14,25 +14,40 @@ body {
 }
 
 .score {
+  display: flex;
   text-align: left;
   font-size: 20px;
   font-family: 'Lucida Sans';
+  margin-bottom: 30px;
+}
+
+.correct-box {
+  margin-right: 50px;
+  color: #2ed573;
+}
+
+.wrong-box {
+  color: #ff6348;
+}
+
+.correct, .wrong {
+  color: #747d8c;
 }
 
 .flag-box {
   height: 400px;
 }
 
-.flag-box img {
+.flag-img {
     border-radius: 15px;
-    margin-bottom: 50px;
     border: 1px solid rgb(224, 224, 224);
-    min-height: 300px;
+    height: 300px;
 }
 
 .flag-name-box {
     width: 90%;
     margin: auto;
+    margin-top: 30px;
     display: flex;
     justify-content: space-around ;
     font-size: 20px;
@@ -45,6 +60,7 @@ body {
     border-radius: 10px;
     transition: all 0.5s;
     text-decoration-color: red;
+    color: #57606f;
 }
 
 button {
